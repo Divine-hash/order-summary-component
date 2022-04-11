@@ -25,8 +25,32 @@ body {
   background: var(--pale-blue) url('./images/pattern-background-desktop.svg') no-repeat;
 }
 
+h1, 
+p {
+  margin-bottom: 10px;
+}
+
+button {
+  border: none;
+  background: #fff;
+  font-weight: 700;
+}
+
+button:first-of-type {
+  width: 100%;
+  padding: 15px;
+  color: #fff;
+  background: var(--bright-blue);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 10px 20px rgb(199, 199, 247);
+}
+
+button:hover {
+  cursor: pointer;
+}
+
 .container {
-  border: 2px solid black;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -34,7 +58,59 @@ body {
 }
 
 .card {
-  max-width: 450px;
+  max-width: 400px;
   text-align: center;
+  background: #fff;
+  border-radius: 20px;
+  overflow: hidden; /* To hide hero image overflow */
 }
 
+.card > img {
+  max-width: 100%;
+}
+
+.card h1 {
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.card p {
+  font-weight: 500;
+}
+
+.card-content {
+  padding: 30px;
+}
+
+.card-plan {
+  background: var(--very-pale-blue);
+  border-radius: 5px;
+  margin-bottom: 30px;
+  padding: 20px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 10px;
+}
+
+.card-plan a {
+  margin-left: auto;
+}
+
+.card-plan a:hover {
+  cursor: pointer;
+}
+
+.card-pricing {
+  font-weight: 700;
+}
+
+@media (max-width: 400px) {
+  body {
+    background: var(--pale-blue) url("./images/pattern-background-mobile.svg") no-repeat;
+  }
+
+  .card {
+    max-width: 300px;
+  }
+}
