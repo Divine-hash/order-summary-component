@@ -64,6 +64,7 @@ button:hover {
   background: #fff;
   border-radius: 20px;
   overflow: hidden; /* To hide hero image overflow */
+  box-shadow: 0 10px 20px rgb(199, 199, 247);
 }
 
 .card > img {
