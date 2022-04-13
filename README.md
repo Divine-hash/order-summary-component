@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://divine-hash.github.io/order-summary-component/)
+- Solution URL: https://divine-hash.github.io/order-summary-component/
 
 ## My process
 
