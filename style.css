@@ -109,12 +109,13 @@ button:hover {
   font-weight: 700;
 }
 
-.card-pricing h4 {
-  color: var(--dark-blue);
-}
-
 .card-pricing span {
   color: var(--desaturated-blue);
+  display: block;
+}
+
+.card-pricing span:first-child {
+  color: var(--dark-blue);
 }
 
 @media (max-width: 400px) {
