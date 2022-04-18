@@ -118,6 +118,10 @@ button:hover {
   color: var(--dark-blue);
 }
 
+.footer-section {
+  padding: 30px;
+}
+
 @media (max-width: 400px) {
   body {
     background: var(--pale-blue) url("./images/pattern-background-mobile.svg") no-repeat;
